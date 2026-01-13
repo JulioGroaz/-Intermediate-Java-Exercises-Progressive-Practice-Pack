@@ -1,33 +1,43 @@
 # Intermediate Java Exercises - Progressive Practice Pack
 
 ## English
-### Purpose
-I created this project to learn intermediate Java through hands-on practice, then published it so others can study along and contribute in their own way.
+### Overview
+This folder contains a progressive set of intermediate Java exercises, from easier to harder. Each exercise has its own folder with a bilingual README and a `Main.java` template to complete.
 
-### What you will find
-- A progressive set of exercises (easy to harder intermediate).
-- Bilingual explanations (EN/IT) with concrete examples.
-- One folder per exercise, each with its own `Main.java` template.
+### Exercises
+- `ex01_word_stats` - Word frequency with normalization and sorting.
+- `ex02_inventory_report` - Inventory aggregation and low stock report.
+- `ex03_scoreboard` - Tournament ranking with tie-breakers.
+- `ex04_expense_splitter` - Split expenses and settle balances.
+- `ex05_meeting_planner` - Find free time slots between meetings.
 
-### Structure
-- `src/` contains all exercises and their per-exercise README files.
-- Start with `src/README.md` for the full list and instructions.
+### How to run
+Each exercise uses a package with the same name as the folder. Compile from the `src` folder:
 
-### Contributing
-If you want to contribute, feel free to open issues or propose improvements and new exercises.
+```bash
+javac ex01_word_stats/Main.java
+java ex01_word_stats.Main
+```
+
+Open the `README.md` inside each folder for the input/output details.
 
 ## Italiano
-### Scopo
-Ho creato questo progetto per imparare Java a livello intermedio con esercizi pratici, poi l'ho pubblicato per permettere anche ad altri di studiare e contribuire a modo loro.
+### Panoramica
+Questa cartella contiene un percorso di esercizi Java intermedi, dal piu facile al piu difficile. Ogni esercizio ha la sua cartella con un README bilingue e un template `Main.java` da completare.
 
-### Cosa trovi
-- Una serie progressiva di esercizi (da intermedio facile a intermedio difficile).
-- Spiegazioni bilingui (EN/IT) con esempi concreti.
-- Una cartella per esercizio, ciascuna con un template `Main.java`.
+### Esercizi
+- `ex01_word_stats` - Frequenze parole con normalizzazione e ordinamento.
+- `ex02_inventory_report` - Aggregazione magazzino e report scorte basse.
+- `ex03_scoreboard` - Classifica torneo con spareggi.
+- `ex04_expense_splitter` - Divisione spese e chiusura saldi.
+- `ex05_meeting_planner` - Slot liberi tra meeting.
 
-### Struttura
-- `src/` contiene tutti gli esercizi e i README dedicati.
-- Parti da `src/README.md` per l'elenco completo e le istruzioni.
+### Come usare
+Ogni esercizio usa un package con lo stesso nome della cartella. Compila dalla cartella `src`:
 
-### Contributi
-Se vuoi contribuire, puoi aprire issue o proporre miglioramenti e nuovi esercizi.
+```bash
+javac ex01_word_stats/Main.java
+java ex01_word_stats.Main
+```
+
+Apri il `README.md` dentro ogni cartella per i dettagli su input/output.
